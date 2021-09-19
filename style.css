@@ -11,11 +11,16 @@ body
 
 .header
 {
-  width: 350px;
   margin-top: 75px;
+}
+
+
+.header__main
+{
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  width: 350px;
 }
 
 .header__text
