@@ -18,7 +18,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Mobile
+
+![](./docs/screenshots/mobile-1.jpeg)
+![](./docs/screenshots/mobile-2.jpeg)
+![](./docs/screenshots/mobile-3.jpeg)
+
+Desktop
+
+![](./docs/screenshots/desktop-1.jpeg)
 
 ## My process
 

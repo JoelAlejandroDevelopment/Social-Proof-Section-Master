@@ -76,6 +76,11 @@ body
   margin-right: auto;
   margin-left: auto;
   width: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .rate
@@ -127,7 +132,11 @@ body
 .card
 {
   background-color:  hsl(300, 43%, 22%);
-  margin-bottom: 15px;
+  width: 350px;
+
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding: 20px;
   border-radius: 15px;
 }
