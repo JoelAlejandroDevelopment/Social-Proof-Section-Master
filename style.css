@@ -9,23 +9,61 @@ body
   font-family: 'Spartan', sans-serif;
 }
 
+.bg-top
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+.bg-bottom
+{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+}
+
 .header
 {
   margin-top: 75px;
 }
 
-
 .header__main
 {
   margin-right: auto;
   margin-left: auto;
+  padding: 20px;
   text-align: center;
   width: 350px;
+}
+
+.header__title
+{
+  font-size: 40px;
 }
 
 .header__text
 {
   color: hsl(303, 10%, 53%);
+  line-height: 25px;
+}
+
+@media screen and (min-width: 600px) {
+  .header
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__main
+  {
+    width: 50%;
+    margin-right: 20px;
+    text-align: left;
+  }
 }
 
 .main
@@ -42,12 +80,34 @@ body
 
 .rate
 {
+  position: relative;
   width: 300px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
   
   text-align: center;
+}
+
+@media screen and (min-width: 600px){
+  .rate
+  {
+    margin-right: 40px;
+  }
+  
+  .rate__card
+  {
+    position: relative;
+  }
+  .rate__card-1
+  {
+    right: 20px;
+  }
+  
+  .rate__card-3
+  {
+    right: -20px;
+  }
 }
 
 .rate__stars
